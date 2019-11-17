@@ -8,6 +8,7 @@ $secondary-font-color: #8C8C8C;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
+    margin: 30px 0;
     &>div{
         min-width: 200px;
         height: 50px;
@@ -27,4 +28,28 @@ $secondary-font-color: #8C8C8C;
             color: white;
         }
     }
+}
+
+table {
+    width: 100%;
+    background-color: $font-color;
+
+}
+
+
+table th > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-header-cell{
+    color: $terciary-color;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+}
+.mat-cell{
+    text-align: center;
+    color: rgb(39, 39, 39);
 }

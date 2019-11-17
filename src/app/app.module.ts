@@ -12,6 +12,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { OpBookComponent } from './pages/op-book/op-book.component';
 import { SidebarComponent } from './component/sidebar/sidebar.component';
 
+// Material
+import {MatTableModule} from '@angular/material/table';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,8 @@ import { SidebarComponent } from './component/sidebar/sidebar.component';
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    NoopAnimationsModule
+    NoopAnimationsModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

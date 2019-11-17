@@ -1,0 +1,18 @@
+$primary-color: #593825;
+$secondary-color: #A62F24;
+$terciary-color: #D94625;
+$font-color: #D9D9D9;
+$grey-color: #8C8C8C;
+$secondary-grey-color: rgb(240, 240, 240);
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    .sectionName{
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+}
