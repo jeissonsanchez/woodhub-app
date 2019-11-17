@@ -9,6 +9,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { OpBookComponent } from './pages/op-book/op-book.component';
+import { SidebarComponent } from './component/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     FooterComponent,
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    OpBookComponent,
+    SidebarComponent
   ],
   imports: [
     HttpClientModule,
