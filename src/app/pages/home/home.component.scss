@@ -1,0 +1,39 @@
+$primary-color: #593825;
+$secondary-color: #A62F24;
+$terciary-color: #D94625;
+$font-color: #D9D9D9;
+$secondary-font-color: #8C8C8C;
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+
+p{
+    font-family: 'Roboto';
+}
+
+.homePage{
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: $primary-color;
+    color: $font-color;
+    text-align: center;
+    .infoContainer{
+        max-width: 500px;
+    }
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 5px 8px;
+    border-radius: 20px;
+    cursor: pointer;
+    &:hover{
+        background-color: white;
+        color:$primary-color;
+    }
+}
